@@ -3139,10 +3139,6 @@
             destroy
         });
     }
-    (function() {
-        "use strict";
-        window.matchMedia("(max-width: 768px)");
-    });
     function initSliders() {
         if (document.querySelector(".auctions__slider")) new swiper_core_Swiper(".auctions__slider", {
             modules: [ Navigation ],
